@@ -74,10 +74,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to change the values of checkboxes based on user input
   function changeValues() {
-    const newName1 = prompt("Enter the new value; if left empty, no changes will be made.");
-    const newName2 = prompt("Enter the new value; if left empty, no changes will be made.");
-    const newName3 = prompt("Enter the new value; if left empty, no changes will be made.");
-    const newName4 = prompt("Enter the new value; if left empty, no changes will be made.");
+    const newName1 = prompt("Enter the first value; if left empty, no changes will be made.");
+    const newName2 = prompt("Enter the second value; if left empty, no changes will be made.");
+    const newName3 = prompt("Enter the third value; if left empty, no changes will be made.");
+    const newName4 = prompt("Enter the fourth value; if left empty, no changes will be made.");
 
     newName1 && (myArray[0].title = newName1);
     newName2 && (myArray[1].title = newName2);
