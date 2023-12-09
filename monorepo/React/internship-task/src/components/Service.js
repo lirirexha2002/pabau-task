@@ -2,10 +2,10 @@ import React from "react";
 import "../style/Service.css";
 import { Link } from "react-router-dom";
 
-const Service = ({ serviceName, serviceIcon }) => {
+const Service = ({ serviceName, serviceIcon, onClick }) => {
   return (
     <div className="service-tab">
-      <Link className="links" to={`/service/${serviceName}`}>
+      <Link className="links" to={`/service/${serviceName}`} onClick={onClick}>
         <div className="service-tab-content">
           <img src={serviceIcon} alt="service icon" />
           <div className="service-name">{serviceName}</div>
