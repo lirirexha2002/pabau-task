@@ -1,0 +1,27 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px -1px 10px 1px rgba(99, 99, 99, 0.377);
+}
+
+.footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.footer .powered {
+    font-size: 14px;
+}
+
+.footer .pabau {
+    font-size: 12px;
+    font-weight: 500;
+}
