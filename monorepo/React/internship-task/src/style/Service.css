@@ -60,3 +60,18 @@
     text-decoration: none;
     color: #1b8ed6;
 }
+
+.go-back-btn {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #1b8ed6;
+}
+
+.go-back-btn:hover {
+    box-shadow: inset 0px 0px 13px -1px rgba(99,99,99,1);
+}

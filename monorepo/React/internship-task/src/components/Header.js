@@ -5,7 +5,7 @@ const Header = ({ page }) => {
   return (
     <div className="header">
       {page === 1 && <div className="choose-service">Choose Service</div>}
-      <div className="page-num">{page}/2</div>
+      <div className="page-num">{page} / 2</div>
     </div>
   );
 };
